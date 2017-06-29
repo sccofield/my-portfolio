@@ -56,7 +56,6 @@ background: url(../img/front.jpg);
     width: 75%;
     border-radius: 25px;
     border: solid 5px #5e5e5e;
-    background-size: ;
 
 }
 
@@ -138,3 +137,28 @@ background: url(../img/front.jpg);
 #footer a:hover{
        color: #3CB371
    }
+
+/*Media queries*/
+
+@media only screen and (max-device-width: 960px) {
+    .about-img{
+        margin: 10px;
+    }
+
+    .about-img img{
+        margin: 25px auto;
+        width: 100%;
+    }
+
+    .projects{
+        margin: 10px;
+    }
+
+    .projects img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+}
